@@ -44,6 +44,16 @@ public class exampleForm {
         $(byText(gender)).click();
         $("#userNumber").setValue(mobileNumber);
 
+        $("#dateOfBirthInput").click();
+        $(".react-datepicker__month-select").selectOptionContainingText(month);
+        $(".react-datepicker__year-select").selectOptionContainingText(year);
+        $(".react-datepicker__day.react-datepicker__day--025").click();
+
+
+
+
+
+
 
     }
 }
