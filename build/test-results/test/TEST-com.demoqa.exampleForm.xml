@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.demoqa.exampleForm" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-07-29T09:29:01" hostname="GYBINS" time="8.757">
+<testsuite name="com.demoqa.exampleForm" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-07-29T10:07:13" hostname="GYBINS" time="24.831">
   <properties/>
-  <testcase name="submitPracticeForm()" classname="com.demoqa.exampleForm" time="8.757"/>
+  <testcase name="submitPracticeForm()" classname="com.demoqa.exampleForm" time="24.831"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
-Jul 29, 2024 2:29:01 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+Jul 29, 2024 3:07:14 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
 WARNING: The chromedriver version (126.0.6478.126) detected in PATH at C:\chromedriver\chromedriver.exe might not be compatible with the detected chrome version (127.0.6533.72); currently, chromedriver 127.0.6533.72 is recommended for chrome 127.*, so it is advised to delete the driver in PATH and retry
-Jul 29, 2024 2:29:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 29, 2024 3:07:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 127
-Jul 29, 2024 2:29:03 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jul 29, 2024 3:07:15 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 127.0.6533.72. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.13.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
 </testsuite>
